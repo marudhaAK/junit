@@ -32,8 +32,8 @@ public static void beforeClass() {
 public static void afterClass() {
 driver.quit();
 }
-//private long startTime;
-//private Object name1;
+
+
 @Before
 public void beforeScript() {
 	long startTime=System.currentTimeMillis();
